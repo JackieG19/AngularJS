@@ -1,0 +1,26 @@
+AngularJS uses MVC Architecture in its approach to create web application.
+
+MVC Architecture is a programming methodology which aims to split out application 
+up into three core components: models, views and controllers.
+These three combine to from the application
+
+* Model 
+- data that we work with
+- can be any type of data like from json or from database
+
+* View 
+- is a html template which represent a certain view or state in your application
+- used to display content and data to a user in a browser
+- use expression to insert data into views <html tag>{{data}}</html tag>
+
+* Controllers 
+- interaction between the models and view
+- control the functionality of our views
+- performs the interaction between our models and our views
+- different controllers for different areas in our application 
+
+An example using the MVC approach:
+User click a 'show user' button in a view. The 'UserController' recognises the button 
+click event and performs a function. The function communicates with the 'users' model 
+and retrieves all the user data. The controller passes accessibility to this data to 
+the view, which then displays it to the end user via expressions
